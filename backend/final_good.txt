@@ -1,0 +1,41 @@
+Sure, here is an example of a JSON file that meets the requirements you specified:
+```
+{
+    "slots": 4,
+    "overprovision": 2,
+    "allowSMT": true,
+    "archs": "x86_64",
+    "flags": ["SSE2"],
+    "min_frequency": 1.5,
+    "ramsize": 2048,
+    "reqECC": false,
+    "misc": {"os_family": "Windows", "os_flavour": "10"},
+    "pci": [
+        {
+            "vendor": "10de",
+            "model": "24b0",
+            "quantity": 1
+        },
+        {
+            "vendor": "10de",
+            "model": "228b",
+            "quantity": 1
+        }
+    ]
+}
+```
+Here's a breakdown of each field in the JSON:
+
+* `slots`: The number of cores available on the system. In this case, there are 4 slots.
+* `overprovision`: The maximum number of VMs that can be run on each core. In this case, the maximum is 2 VMs per core.
+* `allowSMT`: A boolean value indicating whether SMT (Simultaneous Multi-Threading) is allowed on the system. In this case, it is set to true.
+* `archs`: The architecture of the system. In this case, it is set to "x86_64".
+* `flags`: A list of processor instruction set architectures. In this case, there is only one flag set, which is "SSE2".
+* `min_frequency`: The minimum processor frequency in GHz. In this case, it is set to 1.5 GHz.
+* `ramsize`: The size of the RAM dimension in Bytes. In this case, it is set to 2048 Bytes.
+* `reqECC`: A boolean value indicating whether ECC (Error-Correcting Code) RAM is required. In this case, it is set to false.
+* `misc`: A dictionary containing OS information. In this case, the "os_family" is set to "Windows" and the "os_flavour" is set to "10".
+* `pci`: A list of PCI device specifications. In this case, there are two entries: one for a graphics card and one for an audio card.
+
+Note that you can mount only one spare audio card, but not a spare graphics card.
+

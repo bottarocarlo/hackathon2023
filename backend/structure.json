@@ -1,23 +1,23 @@
 {
-    "slots": 2,
-    "overprovision": 2,
-    "allowSMT": false,
-    "archs": ["X86_64"],
-    "flags": ["sse2"],
-    "min_frequency": 1.5,
-    "ramsize": 2048,
-    "reqECC": false,
-    "misc": {"os_family": "linux", "os_flavour": "ubuntu"},
+    "slots": ,
+    "overprovision": ,
+    "allowSMT": ,
+    "archs": ,
+    "flags": ,
+    "min_frequency": ,
+    "ramsize": ,
+    "reqECC": ,
+    "misc": {"os_family": "", "os_flavour": ""},
     "pci": [
         {
-            "vendor": "10de",
-            "model": "24b0",
-            "quantity": 1
+            "vendor": "",
+            "model": "",
+            "quantity": 
         },
         {
-            "vendor": "10de",
-            "model": "228b",
-            "quantity": 1
+            "vendor": "",
+            "model": "",
+            "quantity": 
         }
     ]
 }

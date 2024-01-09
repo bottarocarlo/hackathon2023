@@ -1,0 +1,37 @@
+Here are the system requirements for Adobe Acrobat (XI, X, 9):
+
+Operating System:
+
+* Windows 11 (64 bit)
+* Windows 10 (64 bit) version 1809 or later
+* Windows Server 2016 (64 bit) or Windows Server 2019 (64 bit)
+* Windows 7 SP1 (32 bit and 64 bit)
+* Windows 8, 8.1 (32 bit and 64 bit)
+* Windows 10 version 1507 or later (32 bit and 64 bit)
+
+Processor:
+
+* Intel® or AMD processor; 1.5GHz or faster processor
+
+RAM:
+
+* 2GB of RAM
+
+Hard disk space:
+
+* 4.5GB of available hard-disk space
+
+Monitor resolution:
+
+* 1024x768 screen resolution
+
+Graphics card:
+
+* Video hardware acceleration (optional)
+
+macOS:
+
+* macOS v10.15, macOS v11*, macOS v12, macOS v13, or macOS v14 (Sonoma)
+
+Note: Pre-August 2019 versions of Acrobat, Acrobat 2017, and Acrobat 2015 applications cannot be licensed on macOS 10.15 Catalina and later versions. Adobe recommends customers updating their Acrobat, Acrobat 2017, or Acrobat 2015 to the latest release. To update from within the application, go to the Help menu and choose Check for updates.
+
